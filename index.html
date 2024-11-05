@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Quiz de cores</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Qual você escolhe?</p>
+            <button class="btn-proximo" data-proximo="1">Azul</button>
+            <button class="btn-proximo" data-proximo="2">Verde</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Qual você prefere?</p>
+            <button class="btn-proximo" data-proximo="3">Vermelho</button>
+            <button class="btn-proximo" data-proximo="4">Amarelo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>QUal cor de unha?</p>
+            <button class="btn-proximo" data-proximo="5">Roxo</button>
+            <button class="btn-proximo" data-proximo="6">Rosa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Qual cor para chinelo?</p>
+            <button class="btn-proximo" data-proximo="7">Preto</button>
+          <button class="btn-proximo" data-proximo="8">Branca</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Qual cor você escolheria?</p>
+          <button class="btn-proximo" data-proximo="9">Uma cor mais clara</button>
+          <button class="btn-proximo" data-proximo="10">Uma cor mias escura</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Fim do quiz você gostou?</p>
+            <button class="btn-proximo" data-proximo="11">Sim!!</button>
+            <button class="btn-proximo" data-proximo="112">Não</button>
+        </div>
+
+       </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
